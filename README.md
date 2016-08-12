@@ -1,12 +1,12 @@
 ##useage
   
-  var gulp = require('gulp');
-	var fileVersion = require('gulp-fileversion');
-	gulp.task('default', function() {
-	  return gulp.src('*.html')
-	  			.pipe(fileVersion({ 'verName': 'ver' }))
-	  			.pipe(gulp.dest('./dist/'));
-	})	
+	  var gulp = require('gulp');
+		var fileVersion = require('gulp-fileversion');
+		gulp.task('default', function() {
+		  return gulp.src('*.html')
+		  			.pipe(fileVersion({ 'verName': 'ver' }))
+		  			.pipe(gulp.dest('./dist/'));
+		})	
 
 		
 

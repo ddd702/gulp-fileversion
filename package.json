@@ -17,8 +17,12 @@
   "license": "MIT",
   "main": "index.js",
   "name": "gulp-fileversion",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ddd702/gulp-fileversion.git"
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "version": "0.0.1"
+  "version": "0.0.3"
 }
